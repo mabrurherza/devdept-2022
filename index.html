@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>DevDept Infographic 2022</title>
+  </head>
+  <body>
+    <main>
+      <section id="hero" class="mt-16 grid-container-a hero">
+        <img class="logo" src="/src/img/logo.png" alt="" />
+        <h1 class="mt-16 title">Annual Report</h1>
+        <div class="year-bg">
+          <canvas id="year-number" width="760px" height="640px"></canvas>
+        </div>
+        <div class="bottom-yellow"></div>
+      </section>
+
+      <!-- Customer Highlight -->
+      <section class="cust-highlight-section bg-yellow">
+          <div class="cust-highlight-art">
+            <canvas id="cust-highlight-canvas" width="320" height="320"></canvas>
+          </div>
+
+          <div class="details">
+            <div>
+              <h2 class="heading1 mb-1">Customer Highlight </h1>
+              <p class="text mb-1">In terms of number of activation codes issued</p>
+            </div>
+
+            <!-- NEW CUSTOMERS -->
+            <div class="numbers-container">
+            <div class="numbers">
+              <h2 class="number-big">493</h2>
+              <div class="detail">
+                <div class="percentage">
+                  <img class="plus" src="./src/img/plus.svg" alt="">
+                  <span>16%</span>
+                </div>
+                <p>New Customers</p>
+              </div>
+            </div>
+
+            <!-- ACTIVE CUSTOMERS -->
+            <div class="numbers">
+              <h2 class="number-big">1304</h2>
+              <div class="detail">
+                <div class="percentage">
+                  <img class="plus" src="./src/img/plus.svg" alt="">
+                  <span>12%</span>
+                </div>
+                <p>Active Customers</p>
+              </div>
+            </div>
+          </div>
+
+          </div>
+    </section>
+
+      <!-- Customer Preferred -->
+      <section class="cust-prefer-section bg-blue"></section>
+    </main>
+
+    <script src="https://unpkg.com/@rive-app/canvas@1.0.98"></script>
+    <script>
+      new rive.Rive({
+        src: "/src/rive/2022.riv",
+        canvas: document.getElementById("year-number"),
+        autoplay: true,
+      });
+
+      new rive.Rive({
+        src: "/src/rive/customer-highlight.riv",
+        canvas: document.getElementById("cust-highlight-canvas"),
+        autoplay: true,
+      });
+    </script>
+  </body>
+</html>
