@@ -6,76 +6,428 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
     <title>DevDept Infographic 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <section id="hero" class="mt-16 grid-container-a hero">
-        <img class="logo" src="/src/img/logo.png" alt="" />
-        <h1 class="mt-16 title">Annual Report</h1>
-        <div class="year-bg">
-          <canvas id="year-number" width="760px" height="640px"></canvas>
+      <!--! Hero Section -->
+      <section
+        class="grid col-6 row-4 mobile-col-3 mobile-row-5 hero bg-pale-100"
+      >
+        <div class="logo">
+          <img src="/src/img/logo.png"/>
         </div>
-        <div class="bottom-yellow"></div>
+        <div class="title">
+          <h1>Annual Report</h1>
+        </div>
+        <img src="/src/img/hero/box-1.svg" alt="" class="box-1" />
+        <img src="/src/img/hero/box-2.svg" alt="" class="box-2" />
+        <img src="/src/img/hero/box-3.svg" alt="" class="box-3" />
+        <img src="/src/img/hero/box-4.svg" alt="" class="box-4" />
+        <img src="/src/img/hero/box-5.svg" alt="" class="box-5" />
+        <img src="/src/img/hero/box-6.svg" alt="" class="box-6" />
+
+        <img src="/src/img/hero/box-7.svg" alt="" class="box-7" />
+        <img src="/src/img/hero/box-8.svg" alt="" class="box-8" />
+        <img src="/src/img/hero/box-9.svg" alt="" class="box-9" />
+        <img src="/src/img/hero/box-10.svg" alt="" class="box-10" />
+        <img src="/src/img/hero/box-11.svg" alt="" class="box-11" />
+        <img src="/src/img/hero/box-12.svg" alt="" class="box-12" />
+
+        <img src="/src/img/hero/box-13.svg" alt="" class="box-13" />
+        <div class="box-14">
+          <iframe style="border: none" width="100%" height="100%" src="https://rive.app/s/3gtdOXaNzEGDxMwqqERF2g/embed" allowfullscreen></iframe>
+        </div>
+        <!-- <img src="/src/img/hero/box-14.svg" alt="" class="box-14" /> -->
+        <div class="box-15">
+          <iframe style="border: none" width="100%" height="100%" src="https://rive.app/s/frklCKZKyUq-EPHWR1ozXQ/embed" allowfullscreen></iframe>
+        </div>
+        <!-- <img src="/src/img/hero/box-15.svg" alt="" class="box-15" /> -->
+        <img src="/src/img/hero/box-16.svg" alt="" class="box-16" />
+        <img src="/src/img/hero/box-17.svg" alt="" class="box-17" />
+        <img src="/src/img/hero/box-18.svg" alt="" class="box-18" />
+
+        <img src="/src/img/hero/box-21.svg" alt="" class="box-21" />
+        <img src="/src/img/hero/box-22.svg" alt="" class="box-22" />
+        <img src="/src/img/hero/box-23.svg" alt="" class="box-23" />
+        <img src="/src/img/hero/box-24.svg" alt="" class="box-24" />
       </section>
 
-      <!-- Customer Highlight -->
-      <section class="cust-highlight-section bg-yellow">
-          <div class="cust-highlight-art">
-            <canvas id="cust-highlight-canvas" width="320" height="320"></canvas>
+      <!--! CUSTOMER HIGHLIGHTS -->
+      <section class="cust-highlights-section bg-pale-100">
+        <div
+          class="grid gap-30 col-3 row-2 mobile-col-2 mobile-row-3 content-wrapper"
+        >
+          <div class="cust-highlights-title">
+            <h2 class="heading-1 color-yellow mb-1">Customer Highlights</h2>
+            <p>In terms of number of activation codes issued</p>
           </div>
+          <div class="new-customer-wrapper">
+            <div class="flex-col new-customer">
+              <h3 class="sub">New Customers</h3>
+              <p class="number-lg color-yellow">493</p>
+              <div class="flex-row items-center gap-2">
+                <img
+                  class="icon-plus"
+                  src="/src/img/plus-red-blue.svg"
+                  alt=""
+                />
+                <p>16%</p>
+              </div>
+            </div>
+          </div>
+          <div class="new-cust-illustration">
+              <iframe style="border: none" width="200" height="200" src="https://rive.app/s/WkNPS5raSEWDwHmqwSn7rA/embed" allowfullscreen></iframe>
+            <!-- <img src="/src/img/cust-highlight-1.svg" /> -->
+          </div>
+          <div class="active-customer-wrapper">
+            <div class="flex-col active-customer">
+              <h3 class="sub">Active Customers</h3>
+              <p class="number-lg color-yellow">1302</p>
+              <div class="flex-row items-center gap-2">
+                <img
+                  class="icon-plus"
+                  src="/src/img/plus-red-blue.svg"
+                  alt=""
+                />
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+          <div class="active-cust-illustration">
+            <iframe style="border: none" width="200" height="200" src="https://rive.app/s/mictXzCTjEWncjEG166QDw/embed" allowfullscreen></iframe>
+            <!-- <img src="/src/img/cust-highlight-2.svg" /> -->
+          </div>
+        </div>
+      </section>
 
-          <div class="details">
+      <!--! PRODUCT HIGHLIGHTS -->
+      <section class="prod-highlights-section bg-pale-100">
+        <div class="decor-bg-1">
+          <img src="/src/img/decor-bg-1.svg">
+        </div>
+        <div class="product-highlight-wrapper">
+          <div class="flex-1">
+            <h1 class="heading-1 prod-highlights-title">Product Highlights</h1>
+            <div class="product-edition-wrapper">
+              <h2 class="heading-2 mb-16">Preferred Product Edition</h1>
+                <div class="prod-bar">
+                  <div class="ultimate">
+                    <p class="product-name">Ultimate</p>
+                    <p class="number-sm">78<sup>%</sup></p>
+                  </div>
+                  <div class="professional"></div>
+                  <div class="fem"></div>
+                </div>
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="platform-wrapper">
+              <h2 class="heading-2 mb-16">Preferred Platform</h1>
+                <div class="prod-bar">
+                  <div class="winforms">
+                    <p class="product-name">WinForms</p>
+                    <p class="number-sm">57<sup>%</sup></p>
+                  </div>
+                  <div class="wpf">
+                    <p class="product-name color-white">WPF</p>
+                    <p class="number-sm color-white">43<sup>%</sup></p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--! PRODUCT USAGE -->
+      <section class="prod-usage-section bg-pale-100">
+        <div class="prod-usage-wrapper ">
+          <div class="prod-usage-row-1">
+            <div class="prod-usage-title">
+              <h2 class="heading-1 color-blue mb-1">Product Usage</h2>
+              <p>Total number of unique active users (in thousands)</p>
+            </div>
             <div>
-              <h2 class="heading1 mb-1">Customer Highlight </h1>
-              <p class="text mb-1">In terms of number of activation codes issued</p>
+              <div class="illustration-productusage-frame">
+                <iframe style="border: none" width="140" height="140" src="https://rive.app/s/7Y4QM8iX-0Gj0p-25VgKDw/embed" allowfullscreen></iframe>
+              </div>
+              <!-- <img src="/src/img/illustration-product-usage.svg" alt=""> -->
             </div>
-
-            <!-- NEW CUSTOMERS -->
-            <div class="numbers-container">
-            <div class="numbers">
-              <h2 class="number-big">493</h2>
-              <div class="detail">
-                <div class="percentage">
-                  <img class="plus" src="./src/img/plus.svg" alt="">
-                  <span>16%</span>
-                </div>
-                <p>New Customers</p>
+          </div>
+          <div class="prod-usage-row-2">
+            <div class="flex-1 big-number-wrapper">
+              <div class="">
+                <p class="usage-year color-blue">2022</p>
+                <p class="big-number">8.9</p>
               </div>
             </div>
+            <div class="four-years-wrapper flex-1 z-10">
+              <div class="prod-usage-data ">
+                <p class="usage-year color-blue">2021</p>
+                <p class="usage-number">7.9</p>
+              </div>
+              <div class="prod-usage-data ">
+                <p class="usage-year color-blue">2020</p>
+                <p class="usage-number">6.9</p>
+              </div>
+              <div class="prod-usage-data ">
+                <p class="usage-year color-blue">2019</p>
+                <p class="usage-number">6.0</p>
+              </div>
+              <div class="prod-usage-data">
+                <p class="usage-year color-blue">2018</p>
+                <p class="usage-number">5.1</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <!-- ACTIVE CUSTOMERS -->
-            <div class="numbers">
-              <h2 class="number-big">1304</h2>
-              <div class="detail">
-                <div class="percentage">
-                  <img class="plus" src="./src/img/plus.svg" alt="">
-                  <span>12%</span>
+      <!--! REGION GROWTH -->
+      <section class="region-section bg-pale-100">
+          <img src="/src/img/decor-bg-2.svg" class="decor-bg-2">
+
+        <div class="region-wrapper flex-row">
+          <div class="illustration-wrapper flex-col">
+            <div>
+              <iframe style="border: none" width="120" height="120" src="https://rive.app/s/Y4yAfKaDXkGH38BfCb-MZg/embed" allowfullscreen></iframe>
+            </div>
+            <!-- <img src="/src/img/region-rocket.svg"> -->
+            <img src="/src/img/region-decor.svg">
+          </div>
+
+          <div class="revenue-wrapper">
+            <div class="revenue-title">
+              <h3 class="number-sm">Revenue Growth</h3>
+              <p>by Region</p>
+            </div>
+            <div class="revenue-bars">
+              <div class="item-bar">
+                <p>Asia Pacific & Oceania</p>
+                <div class="rev-apoc-bar bg-yellow">
+                  <p>31.8<sup>%</sup></p>
                 </div>
-                <p>Active Customers</p>
+              </div>
+
+              <div class="item-bar">
+                <p>Europe, The Middle East, Africa</p>
+                <div class="rev-ema-bar bg-yellow-50">
+                  <p>15.9<sup>%</sup></p>
+                </div>
+              </div>
+
+              <div class="item-bar">
+                <p>Americas</p>
+                <div class="rev-americas-bar bg-yellow-30">
+                  <p>11.6<sup>%</sup></p>
+                </div>
               </div>
             </div>
           </div>
 
-          </div>
-    </section>
+          <div class="turnover-wrapper">
+            <div class="turnover-title">
+              <h3 class="number-sm">Turn Over</h3>
+              <p>by Region</p>
+            </div>
+            <div class="turnover-bars">
+              <div class="item-bar">
+                <p>Asia Pacific & Oceania</p>
+                <div class="turnover-apoc-bar bg-yellow bg-blue-90">
+                  <p>21.6<sup>%</sup></p>
+                </div>
+              </div>
 
-      <!-- Customer Preferred -->
-      <section class="cust-prefer-section bg-blue"></section>
+              <div class="item-bar">
+                <p>Europe, The Middle East, Africa</p>
+                <div class="turnover-ema-bar bg-blue color-white">
+                  <p>55.5<sup>%</sup></p>
+                </div>
+              </div>
+
+              <div class="item-bar">
+                <p>Americas</p>
+                <div class="turnover-americas-bar bg-blue-80">
+                  <p>22.9<sup>%</sup></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--! PAYING ACTIVE USER / PAU -->
+      <section class="paying-active-user-section bg-pale-100">
+        <div class="PAU-wrapper">
+
+          <div class="PAU-row-1">
+            <div class="illustration-PAU-frame">
+              <iframe style="border: none" width="100%" height="100%" src="https://rive.app/s/cJUtm0DJL0SxVhgDlWnYKQ/embed" allowfullscreen></iframe>
+            </div>
+            <div class="paying-active-user-title">
+              <h2 class="heading-1 color-blue mb-1">Top 10 Countries</h2>
+              <p>by Paying Active Users</p>
+            </div>
+          </div>
+
+          <div class="PAU-row-2">
+            <div class="PAU-rangking">
+              <img src="/src/img/PAU-rangking.svg" alt="">
+            </div>
+            <div class="PAU-countries">
+              <img src="/src/img/PAU-data.svg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+       <!--! YoY GROWTH -->
+       <section class="yoy-section bg-pale-100">
+        <div class="WIP">
+          <p>Work in Progress</p>
+        </div>
+        <div class="yoy-wrapper ">
+          <div class="yoy-row-1">
+            <div class="illustration-yoy-frame">
+              <iframe style="border: none" width="100%" height="100%" src="https://rive.app/s/xbAcKhapfka_2-4swbCKmg/embed" allowfullscreen></iframe>
+            </div>
+            <div class="yoy-title">
+              <h2 class="heading-1 color-yellow mb-1">Top 10 Countries</h2>
+              <p>by Paying Customers YoY Growth</p>
+            </div>
+          </div>
+
+          <div class="yoy-row-2">
+            <div class="yoy-data-wrapper turkey">
+              <div class="bg-square"></div>
+              <div class="bg-circle"></div>
+              <p class="yoy-text-lg text-bold mb-1">Turkey</p>
+              <p class="yoy-percent-lg color-white">153<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper india">
+                <p class="yoy-text-sm color-white">India</p>
+                <p class="yoy-percent-md color-white">67<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper spain">
+                <p class="yoy-text-sm color-white">Spain</p>
+                <p class="yoy-percent-md color-white">58<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper ausie">
+                <p class="yoy-text-sm color-white">Australia</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper korea">
+              <div>
+                <p class="yoy-percent-md color-white">38<sup>%</sup></p>
+                <p class="yoy-text-sm color-white">Korea, republic of</p>
+              </div>
+            </div>
+            <div class="yoy-data-wrapper italy">
+              <p class="yoy-text-sm color-white">Italy</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper canada">
+              <p class="yoy-text-sm color-white">Canada</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper denmark">
+              <p class="yoy-text-sm color-white">Denmark</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper sweden">
+              <p class="yoy-text-sm color-white">Sweden</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+            <div class="yoy-data-wrapper germany">
+              <p class="yoy-text-sm color-white">Germany</p>
+                <p class="yoy-percent-md color-white">55<sup>%</sup></p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+       <!--! TECHNICAL SUPPORT -->
+       <section class="tech-support-section">
+        <div class="tech-supp-bg-grid">
+          <div class="tech-supp-bg">
+          </div>
+          <div class="animation">
+            <iframe width="300" height="300" src="https://rive.app/s/0gn4yCq0mUahYDQZr25a4w/embed" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="tech-support-wrapper">
+          <div class="tech-support-col-1">
+            <div>
+              <p class="usage-number color-yellow">34<sup>%</sup></p>
+              <h3 class="sub color-white">One Touch <br> Resolution</h3>
+            </div>
+            <div>
+              <div class="flex-row items-center gap-2">
+                <img class="icon-plus" src="/src/img/plus-yellow.svg">
+                <p class="color-white">6%</p>
+              </div>
+              <p class="usage-number color-yellow">2.6K</p>
+              <h3 class="sub color-white">Ticket created during <br> year 2022</h3>
+            </div>
+          </div>
+
+          <div class="tech-support-col-2">
+            <div>
+              <p class="usage-number color-yellow">9.9</p>
+              <h3 class="sub color-white">First Reply Time <br> Median Hours to First Reply</h3>
+            </div>
+          </div>
+
+          <div class="tech-support-col-3">
+            <h2 class="heading-1 color-blue tech-support-title mb-1">Technical Support</h2>
+          </div>
+        </div>
+
+        </section>
+
+        <!--! Customer Preferences -->
+       <section class="cust-pref-section">
+        <div class="WIP">
+          <div>
+            <p>Customer Preferences</p>
+            <p>Work in Progress</p>
+          </div>
+        </div>
+        </section>
+
+        <!--! CUSTOMER MACHINES -->
+       <section class="cust-machines-section">
+        <div class="WIP">
+          <div>
+            <p>Customer Machines</p>
+            <p>Work in Progress</p>
+          </div>
+        </div>
+      </section>
+
+
     </main>
 
-    <script src="https://unpkg.com/@rive-app/canvas@1.0.98"></script>
+    <!-- <script src="https://unpkg.com/@rive-app/canvas@1.0.98"></script>
     <script>
-      new rive.Rive({
-        src: "/src/rive/2022.riv",
-        canvas: document.getElementById("year-number"),
-        autoplay: true,
-      });
+      // new rive.Rive({
+      //   src: "/src/rive/2022.riv",
+      //   canvas: document.getElementById("year-number"),
+      //   autoplay: true,
+      // });
 
-      new rive.Rive({
-        src: "/src/rive/customer-highlight.riv",
-        canvas: document.getElementById("cust-highlight-canvas"),
-        autoplay: true,
-      });
-    </script>
+      // new rive.Rive({
+      //   src: "/src/rive/customer-highlight.riv",
+      //   canvas: document.getElementById("cust-highlight-canvas"),
+      //   autoplay: true,
+      // });
+    </script> -->
   </body>
 </html>

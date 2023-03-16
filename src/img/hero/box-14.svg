@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-320,-639)">
+        <g transform="matrix(1,0,0,0.999794,0,0.131767)">
+            <g id="box-14">
+                <path d="M640,799.066C640,710.7 568.365,639.066 480,639.066C391.634,639.066 320,710.7 320,799.066C320,887.431 391.634,959.066 480,959.066C568.365,959.066 640,887.431 640,799.066Z" style="fill:rgb(253,252,249);"/>
+                <rect x="480" y="799.033" width="160" height="160" style="fill:rgb(69,41,245);fill-rule:nonzero;"/>
+                <path d="M580.2,858.832C575.309,853.941 567.362,853.941 562.471,858.832L562.471,858.833C557.579,863.724 557.579,871.67 562.471,876.562C567.362,881.453 575.309,881.453 580.2,876.562C585.091,871.67 585.091,863.724 580.2,858.832ZM556.245,852.607C564.575,844.277 578.096,844.277 586.426,852.607C594.756,860.936 594.756,874.458 586.426,882.787C578.096,891.117 564.575,891.117 556.245,882.787C547.915,874.458 547.915,860.936 556.245,852.607" style="fill:rgb(255,201,40);"/>
+                <path d="M559.02,889.598L549.447,880.025L527.993,901.479L537.566,911.052L559.02,889.598Z"/>
+                <rect x="320" y="639" width="160" height="160" style="fill:rgb(255,201,40);fill-rule:nonzero;"/>
+                <rect x="375.473" y="709.639" width="11.781" height="26.951" style="fill:rgb(255,19,57);fill-rule:nonzero;"/>
+                <rect x="375.473" y="742.103" width="49.054" height="9.178" style="fill-rule:nonzero;"/>
+                <rect x="394.039" y="697.285" width="11.781" height="39.305" style="fill:rgb(0,98,186);fill-rule:nonzero;"/>
+                <rect x="412.605" y="686.719" width="11.781" height="49.871" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
