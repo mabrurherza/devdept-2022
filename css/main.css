@@ -1203,8 +1203,10 @@ p {
 }
 @media (max-width: 767px) {
   .yoy-decor-bg {
-    width: 85%;
-    height: 30%;
+    -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 25%;
   }
 }
 
@@ -1267,7 +1269,6 @@ p {
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
-    border: solid 1px red;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -1469,7 +1470,7 @@ p {
 .italy .yoy-percent-md {
   aspect-ratio: 1/1;
   color: white;
-  background: #F1AD82;
+  background: rgba(241, 173, 130, 0.7);
   border-radius: 200px;
   display: flex;
   align-items: center;
@@ -1511,7 +1512,7 @@ p {
 .canada .yoy-percent-md {
   aspect-ratio: 1/1;
   color: white;
-  background: #00AAA4;
+  background: rgba(0, 170, 164, 0.7);
   border-radius: 200px;
   display: flex;
   align-items: center;
@@ -1586,7 +1587,7 @@ p {
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 2px;
 }
 @media (max-width: 767px) {
   .sweden {
@@ -1595,8 +1596,8 @@ p {
 }
 .sweden .yoy-circle {
   border-radius: 200px;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background: black;
 }
 @media (max-width: 767px) {
@@ -1615,6 +1616,9 @@ p {
     transform: scale(50%);
   }
 }
+.sweden .yoy-text-sm {
+  font-size: 12px;
+}
 
 .germany-bg {
   grid-area: 4/6;
@@ -1626,7 +1630,7 @@ p {
   position: relative;
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 2px;
 }
 @media (max-width: 767px) {
   .germany {
@@ -1635,8 +1639,8 @@ p {
 }
 .germany .yoy-circle {
   border-radius: 200px;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background: black;
 }
 @media (max-width: 767px) {
@@ -1654,6 +1658,9 @@ p {
   .germany .yoy-percent-md {
     transform: scale(50%);
   }
+}
+.germany .yoy-text-sm {
+  font-size: 12px;
 }
 
 /*
@@ -1803,7 +1810,7 @@ p {
 }
 @media (max-width: 767px) {
   .cust-machines-section {
-    padding: 120px 14px 120px 14px;
+    padding: 0px 14px 120px 14px;
   }
 }
 
@@ -1820,7 +1827,7 @@ p {
 @media (max-width: 767px) {
   .half-round-bg {
     border-top-left-radius: 160px;
-    height: 90%;
+    height: 100%;
     width: 75%;
   }
 }
@@ -1967,7 +1974,7 @@ p {
 }
 @media (max-width: 767px) {
   .cust-pref-section {
-    padding: 120px 14px;
+    padding: 120px 14px 40px 14px;
   }
 }
 
